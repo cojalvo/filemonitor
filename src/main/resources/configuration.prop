@@ -1,0 +1,6 @@
+configuration.file=/Users/cadano/Documents/configFile.txt
+mail.server=smtp.gmail.com
+mail.from=cadan85@gmail.com
+mail.to=cadan85@gmail.com;cadan.ojalvo@il.ibm.com
+mail.user=smtptestmail1234@gmail.com
+mail.password=058888335

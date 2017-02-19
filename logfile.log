@@ -1,0 +1,12 @@
+DEBUG | 2017-01-23 15:14:39 | [main] monitor.TrusteerDataValidator (TrusteerDataValidator.java:23) - validating data , current myData prev myData
+DEBUG | 2017-01-23 15:14:39 | [main] monitor.TrusteerDataValidator (TrusteerDataValidator.java:23) - validating data , current myData2 prev myData
+INFO  | 2017-01-23 15:14:39 | [main] common.DateRetriever (DateRetriever.java:27) - Start fetching data from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM - *
+DEBUG | 2017-01-23 15:14:39 | [main] common.DateRetriever (DateRetriever.java:65) - Start building url https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM-* 
+INFO  | 2017-01-23 15:14:39 | [main] common.DateRetriever (DateRetriever.java:27) - Start fetching data from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM - *
+DEBUG | 2017-01-23 15:14:39 | [main] common.DateRetriever (DateRetriever.java:65) - Start building url https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM-* 
+INFO  | 2017-02-19 11:23:52 | [main] common.DateRetriever (DateRetriever.java:27) - Start fetching data from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM - *
+DEBUG | 2017-02-19 11:23:52 | [main] common.DateRetriever (DateRetriever.java:65) - Start building url https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM-* 
+INFO  | 2017-02-19 11:23:52 | [main] common.DateRetriever (DateRetriever.java:27) - Start fetching data from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM - *
+DEBUG | 2017-02-19 11:23:52 | [main] common.DateRetriever (DateRetriever.java:65) - Start building url https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitUx0EF8YeFp_A7fhESMutjN78j060B_YdW3qJOYD1PyLWGCM-* 
+DEBUG | 2017-02-19 11:23:52 | [main] monitor.TrusteerDataValidator (TrusteerDataValidator.java:23) - validating data , current myData prev myData
+DEBUG | 2017-02-19 11:23:52 | [main] monitor.TrusteerDataValidator (TrusteerDataValidator.java:23) - validating data , current myData2 prev myData

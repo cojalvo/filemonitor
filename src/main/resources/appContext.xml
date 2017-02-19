@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!--The monitor-->
+    <bean id="monitor" class="com.il.ibm.monitor.Monitor">
+        <property name="configReader" ref="configReader"/>
+        <property name="dataValidator" ref="dataValidator"/>
+        <property name="dataCalculator" ref="dataCalculator"/>
+        <property name="messageDeliver" ref="messageDeliver"/>
+        <property name="dataRetriever" ref="dataRetriever"/>
+    </bean>
+    <!--The scheduler-->
+    <bean id="scheduler" class="com.il.ibm.monitor.Scheduler">
+        <property name="monitor" ref="monitor"/>
+    </bean>
+
+    <bean id="configReader" class="com.il.ibm.monitor.common.ConfigReader" init-method="init"/>
+    <bean id="dataValidator" class="com.il.ibm.monitor.TrusteerDataValidator"/>
+    <bean id="dataCalculator" class="com.il.ibm.monitor.SH1DataCalculator"/>
+    <bean id="dataRetriever" class="com.il.ibm.monitor.common.DateRetriever"/>
+    <bean id="messageDeliver" class="com.il.ibm.monitor.EmailMessageDeliver">
+        <property name="configReader" ref="configReader"/>
+    </bean>
+
+</beans>
